@@ -30,7 +30,6 @@ yll_cs,	time(varname) 					/// Time into study in years
 qui {
 
 cls
-clear all
 
 capture program drop yll_cs
 program yll_cs
