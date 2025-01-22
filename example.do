@@ -27,7 +27,7 @@ yll_cs,	time(varname) 					/// Time into study in years
 		[cifti(real 0.1)]				/// [Optional] Time intervals in years for CIF curves (i.e., x-axis)
 */
 
-
+qui {
 
 cls
 clear all
@@ -295,6 +295,8 @@ program yll_cs
 			 restore
 			 
 			 }
+}
+
 
 			 use `currentdatabase', clear
 end
